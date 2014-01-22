@@ -1,1 +1,2 @@
 Feature: Foobar
+test
