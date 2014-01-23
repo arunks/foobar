@@ -4,6 +4,8 @@ Given i get foo
 Then I do bar
 When I foobar
 Then I do nothing
+Then I add a new step here
+And it is not in the stepdef json
 
   Scenario:
   Login with email password for US user
@@ -17,3 +19,5 @@ Then I do nothing
 
     Given the user is on the login screen
     Then user can login with phone "4083331231", "5647"
+
+		
