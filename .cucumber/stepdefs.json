@@ -1,3 +1,107 @@
 [
+  {
+    "source": "^i get foo$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/test.rb:1",
+    "steps": [
+      {
+        "name": "i get foo",
+        "args": [
 
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I do bar$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/test.rb:5",
+    "steps": [
+      {
+        "name": "I do bar",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I foobar$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/test.rb:9",
+    "steps": [
+      {
+        "name": "I foobar",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I do nothing$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/test.rb:13",
+    "steps": [
+      {
+        "name": "I do nothing",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user is on the login screen$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/test.rb:17",
+    "steps": [
+      {
+        "name": "the user is on the login screen",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user can login with email \"(.*?)\", \"(.*?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/test.rb:21",
+    "steps": [
+      {
+        "name": "user can login with email \"kvelumani-us-p12@paypal.com\", \"11111111\"",
+        "args": [
+          {
+            "offset": 27,
+            "val": "kvelumani-us-p12@paypal.com"
+          },
+          {
+            "offset": 58,
+            "val": "11111111"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user can login with phone \"(.*?)\", \"(.*?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/test.rb:25",
+    "steps": [
+      {
+        "name": "user can login with phone \"4083331231\", \"5647\"",
+        "args": [
+          {
+            "offset": 27,
+            "val": "4083331231"
+          },
+          {
+            "offset": 41,
+            "val": "5647"
+          }
+        ]
+      }
+    ]
+  }
 ]
